@@ -15,3 +15,8 @@ Use 3 to toggle particle visibility
 Use 4 to switch between view modes (State grid, Pressure, Velocity)
 
 The velocity plot works on CIELab axis (blue vs yellow for x-axis velocity, red vs green on y axis).
+
+## Code-based settings
+In game.h you can adjust the resolution of the simulation with SCRWIDTH and SCRHEIGHT. Note: we assume square windows, functionality is undefined when SCRWIDTH =/= SCRHEIGHT.
+
+In fluid.h you can adjust the grid dimensions (set to 50 in this build), and potentially disable a concept we call Marker Particle Resampling. Marker Particle Resampling serves to counter the effect of marker particles clustering together, thus reducing the overall volume of the simulation. It randomly deletes and adds particles inside grid cells that have at least 1 particle in them. This process will never delete the last particle from a cell.
