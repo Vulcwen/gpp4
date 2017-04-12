@@ -312,7 +312,7 @@ void Fluid::Draw(Surface * surface)
 			for (int y = 0; y < size.y; y++)
 			{
 				float p = interpolate(x * pixelSize, y * pixelSize, getPressure);
-				Color col{ 255, toByte(max(0.f, -p * 255)), 1 , toByte(max(0.f,p * 255)) };
+				Color col{ 255, toByte(max(0.f, -p * 1.5f)), 1 , toByte(max(0.f,p * 1.5f)) };
 				surface->Plot(x, y, col.value);
 
 			}
