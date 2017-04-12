@@ -1,8 +1,8 @@
 #pragma once
 
 //settings
-#define SCRWIDTH	 1280
-#define SCRHEIGHT	 1280
+#define SCRWIDTH	 600
+#define SCRHEIGHT	 600
 
 
 

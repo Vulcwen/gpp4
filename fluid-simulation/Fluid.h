@@ -9,7 +9,7 @@
 typedef MACGrid2d<float, float, glm::vec3, GRID_HEIGHT, GRID_HEIGHT> MACGrid2dF;
 typedef std::function<float (int, int)> get_Q_t;
 
-#define JACOBI_SOLVE_ITERATIONS 75
+#define JACOBI_SOLVE_ITERATIONS 150
 
 enum DrawMode { GRIDSTATE, PRESSURE, VELOCITY };
 
