@@ -16,6 +16,8 @@ Use 4 to switch between view modes (State grid, Pressure, Velocity)
 
 The velocity plot works on CIELab axis (blue vs yellow for x-axis velocity, red vs green on y axis).
 
+Using the mouse you can add a small force to the position you're plotting.
+
 ## Code-based settings
 In game.h you can adjust the resolution of the simulation with SCRWIDTH and SCRHEIGHT. Note: we assume square windows, functionality is undefined when SCRWIDTH =/= SCRHEIGHT.
 
