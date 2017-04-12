@@ -9,7 +9,7 @@ The fluid simulation makes use of a Eulerian model with marker particles, descri
 We also have some older experimental code with particles in Game.h/cpp, you can disregard that part, it's not executed.
 
 ## Controls
-Use 1 to toggle the sink on the bottom right (drains marker particles from the system)
+Use 1 to toggle the sink on the bottom left (drains marker particles from the system)
 Use 2 to toggle the tap at the top (adds marker particles to the system)
 Use 3 to toggle particle visibility
 Use 4 to switch between view modes (State grid, Pressure, Velocity)
