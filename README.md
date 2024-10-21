@@ -1,6 +1,6 @@
 # Fluid simulation (INFOMGP)
 
-Written by Twan Veldhuis and Klaas Hidde van den Berg
+Written by Tessa Veldhuis and Klaas Hidde van den Berg
 
 This program uses a template created by Jacco Bikker, which provides a simple image buffer and input handling functionality.
 We have modified part of the template code to support saving images and circles.
